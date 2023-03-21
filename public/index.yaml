@@ -9,7 +9,7 @@ entries:
     name: dovecot
     type: application
     urls:
-    - https://sei-npacheco.github.io/public/dovecot-0.1.0.tgz
+    - https://sei-npacheco.github.io/webmail/public/dovecot-0.1.0.tgz
     version: 0.1.0
   postfix:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: postfix
     type: application
     urls:
-    - https://sei-npacheco.github.io/public/postfix-0.1.0.tgz
+    - https://sei-npacheco.github.io/webmail/public/postfix-0.1.0.tgz
     version: 0.1.0
   roundcube:
   - apiVersion: v2
@@ -31,6 +31,6 @@ entries:
     name: roundcube
     type: application
     urls:
-    - https://sei-npacheco.github.io/public/roundcube-0.1.0.tgz
+    - https://sei-npacheco.github.io/webmail/public/roundcube-0.1.0.tgz
     version: 0.1.0
 generated: "2023-03-21T10:39:29.726768155-04:00"

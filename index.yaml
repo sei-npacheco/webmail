@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  webmail:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-12-20T12:43:19.314459212-05:00"
+    description: A Helm chart for Kubernetes
+    digest: f8343050e5e59aa3032845ae19ba6abeba713e8aeb18a704192bf37f49e2767e
+    name: webmail
+    type: application
+    urls:
+    - https://github.com/sei-npacheco/webmail/webmail-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-20T12:43:19.313544249-05:00"

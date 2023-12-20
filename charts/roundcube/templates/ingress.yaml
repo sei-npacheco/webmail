@@ -32,6 +32,6 @@ spec:
               service:
                 name: roundcubemail
                 port:
-                  number: 8080
+                  number: 9000
           {{- end }}
     {{- end }}

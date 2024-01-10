@@ -62,15 +62,15 @@ resources:
     #cpu:  200m
     #memory: 256Mi
 
-volumeMounts: {}
-  # - mountPath:
-  #   name:
-  #   subPath: 
+volumeMounts:
+  - mountPath:
+    name:
+    subPath: 
 
-volumes: {}
-  # - name: 
-  #   persistentVolumeClaim:
-  #     claimName: 
+volumes:
+  - name: 
+    persistentVolumeClaim:
+      claimName: 
 
 autoscaling:
   enabled: false

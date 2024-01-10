@@ -40,6 +40,7 @@ roundcube:
 
   ingress:
     enabled: true
+    annotations: {}
     hosts:
       - host: chat-example.local
         paths:
@@ -61,11 +62,16 @@ roundcube:
     #requests:
       #cpu:  200m
       #memory: 256Mi
+  
+  volumeMounts: {}
+  # - mountPath:
+  #   name:
+  #   subPath: 
 
-  volumes:
-    - name: 
-      persistentVolumeClaim:
-        claimName: 
+  volumes: {}
+    # - name: 
+    #   persistentVolumeClaim:
+    #     claimName: 
 
   autoscaling:
     enabled: false
@@ -144,19 +150,19 @@ postfix:
       cpu: 10m
       memory: 32Mi
   
-  ports:
-    - containerPort:
-      name:
+  ports: {}
+    # - containerPort:
+    #   name:
 
-  volumeMounts:
-    - mountPath:
-      name:
-      subPath: 
+  volumeMounts: {}
+    # - mountPath:
+    #   name:
+    #   subPath: 
 
-  volumes:
-    - name: 
-      persistentVolumeClaim:
-        claimName: 
+  volumes: {}
+    # - name: 
+    #   persistentVolumeClaim:
+    #     claimName: 
 
   autoscaling:
     enabled: false
@@ -226,22 +232,19 @@ dovecot:
       cpu: 50m
       memory: 32Mi
 
-  ports:
-    - containerPort:
-      name:
+  ports: {}
+    # - containerPort:
+    #   name:
 
-  volumeMounts:
-    - mountPath:
-      name:
-      subPath: 
+  volumeMounts: {}
+    # - mountPath:
+    #   name:
+    #   subPath: 
 
-  volumes:
-    - name: 
-      persistentVolumeClaim:
-        claimName: 
-    - name: 
-      persistentVolumeClaim:
-        claimName: 
+  volumes: {}
+    # - name: 
+    #   persistentVolumeClaim:
+    #     claimName: 
 
   autoscaling:
     enabled: false

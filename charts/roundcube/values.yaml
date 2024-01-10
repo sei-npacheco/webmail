@@ -39,6 +39,7 @@ service:
 
 ingress:
   enabled: true
+  annotations: {}
   hosts:
     - host: chat-example.local
       paths:
@@ -61,10 +62,15 @@ resources:
     #cpu:  200m
     #memory: 256Mi
 
-volumes:
-  - name: 
-    persistentVolumeClaim:
-      claimName: 
+volumeMounts: {}
+  # - mountPath:
+  #   name:
+  #   subPath: 
+
+volumes: {}
+  # - name: 
+  #   persistentVolumeClaim:
+  #     claimName: 
 
 autoscaling:
   enabled: false
